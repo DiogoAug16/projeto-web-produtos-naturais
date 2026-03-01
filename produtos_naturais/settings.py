@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-bj4tx-3)6n3h^*sje&^e^p4-3(#w+0tw5jnvm_dfx#tev6yso-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'aplicacaoprogweb.azurewebsites.net']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'aplicacaoprogweb.azurewebsites.net', '0.0.0.0']
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home' 
